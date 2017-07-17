@@ -1,0 +1,89 @@
+body {
+    /*border: 5px solid whitesmoke;*/
+    background: url('../images/brick.jpg') no-repeat center center fixed;
+}
+
+#realBody {
+   
+}
+
+#panelHeader {
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+#panelMain {
+     
+    
+}
+
+#header {
+    background-color: #00FFFF;
+    width: 300px;
+    height: 77px;
+    padding:0;
+    margin:0;
+    float: left;
+    position: relative;
+    left: 118px;
+}
+
+#headerName {
+    position: relative;
+    top: 15px;
+    left: 9px;
+    color: black;
+}
+
+#navigation {
+    color: whitesmoke;
+    padding:0;
+    margin:0;
+}
+
+.linkMenu {
+    color: whitesmoke;
+    font-size: 18px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+    font-weight: bold;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#introduction {
+    position: relative;
+    top: 30px;
+    left: 130px;
+    padding:0;
+    margin:0;
+    float: left;
+    font-size: 22px;
+}
+
+#connectAside {
+    position: relative;
+    top: 50px;
+    left: 400px;
+    padding:0;
+    margin:0;
+    float: left;
+    border-style: solid;
+    border-width: thick;
+    border-color: #00FFFF;
+    border-radius: 25px;
+    width: 500px;
+    height: 250px;
+    background-color: #00FFFF;
+    box-shadow: 10px 10px 5px #888888;
+}
