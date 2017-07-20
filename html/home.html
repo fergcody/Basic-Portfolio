@@ -7,16 +7,19 @@
         <title> Home </title>
         <link rel="shortcut icon" href="images/" type="image/ico"/>
         <link rel="icon" href="images/" type="image/ico"/>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/bootstrap.css">
         <script src="../js/portfolio.js"></script>
 
     </head>
     <body style="background-color: black;">
         <div id="realBody">
             <div id="panelHeader">
-                <div id="header">
+                <div id="header" onclick="location.href='about.html'">
                     <h1 id="headerName" style="display: inline-block;"> Cody Ferguson </h1>
                 </div>
                 <div id="navigation">    
@@ -29,17 +32,18 @@
             
             <div id="panelMain">      
                 <div id="introduction">        
-                    <h1> Introduction </h1>
-                    <img id="homeImage" src="../images/brain.png" alt="brain pic">
-                    <p> Welcome to my site! </p>
-                    <p> Please feel free to explore at your convenience. If you have questions, contact me anytime. </p>   
+                    <h1 align="center"> Hey! </h1>
+                    <p class="homeP"> Welcome to my site. </p>
+                    <p class="homeP"> Please feel free to explore at your convenience. </p>
+                    <p class="homeP"> If you have questions, contact me anytime. </p>
+                    <p style="color: #00FFFF;" class="homeP"> Don't forget to check out my portfolio! </p>
                 </div>
 
                 <div id="connectAside">
-                    <h2 align="center"> Connect with me </h2>
-                    <img class="connectIcons" src="../images/" alt="GitHubLogo">
-                    <img class="connectIcons" src="../images/" alt="LinkedInLogo">
-                    <img class="connectIcons" src="../images/" alt="StackOverflowLogo">
+                    <h2 align="center"> Connect with me &phone; </h2>
+                    <img id="gitIcon" class="connectIcons" src="../images/github.svg" alt="GitHubLogo" onclick="window.open('https://www.google.com')" data-toggle="tooltip" title="GitHub">
+                    <img id="linkedIcon" class="connectIcons" src="../images/linkedin.png" alt="LinkedInLogo" onclick="window.open('https://www.google.com')" data-toggle="tooltip" title="LinkedIn">
+                    <img id="stackIcon" class="connectIcons" src="../images/stack.png" alt="StackOverflowLogo" onclick="window.open('https://www.google.com')" data-toggle="tooltip" title="StackOverflow">
                 </div>
             </div>
 
